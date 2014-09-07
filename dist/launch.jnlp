@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>atomsMolecules</title>
+        <vendor>chandler</vendor>
+        <homepage href=""/>
+        <description>atomsMolecules</description>
+        <description kind="short">atomsMolecules</description>
+        
+        
+    </information>
+    <update check="always"/>
+    
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.6+"/>
+        <jar href="atomsMolecules.jar" main="true"/>
+        
+        
+    </resources>
+    <applet-desc height="600" main-class="mainPackage.AtomsMolecules" name="atomsMolecules" width="800">
+        
+    </applet-desc>
+</jnlp>
